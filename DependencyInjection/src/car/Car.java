@@ -24,11 +24,4 @@ public class Car {
 		engine = new Engine(engine);	// Use the Engine copy constructor
 	}
 
-	public Engine getEngine() {
-		return engine;
-	}
-
-	public void setEngine(Engine engine) {
-		this.engine = engine;
-	}
 }
