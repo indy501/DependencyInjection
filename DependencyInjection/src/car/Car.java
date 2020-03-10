@@ -14,8 +14,7 @@ import engine.Engine;
  *
  */
 public class Car {
-	private Engine engine;
-	
+	private Engine engine;	
 	/***
 	 * Constructor
 	 * @param engine The engine that the car object will have
@@ -23,5 +22,13 @@ public class Car {
 	 */
 	public Car(Engine engine) throws Exception {
 		engine = new Engine(engine);	// Use the Engine copy constructor
+	}
+
+	public Engine getEngine() {
+		return engine;
+	}
+
+	public void setEngine(Engine engine) {
+		this.engine = engine;
 	}
 }
